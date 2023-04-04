@@ -2,3 +2,45 @@
     margin: 0;
     padding: 0;
 }
+
+.tabela {
+    color: #010101;
+    width: 100%;
+    border: 1px solid #010101;
+    border-collapse: collapse;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.tabela td, .tabela th {
+    border: 1px solid #010101;
+    padding: 10px;
+    text-align: center;
+}
+.alinhadoEsquerda{ 
+    text-align: left;
+
+}
+
+.tabela th {
+    color: #ffffff;
+    background-color: #010101;
+}
+
+.tabela tr:nth-child(even){               /*zebrar*/         
+    background-color: #e2e2e2;          /*even seria numero par*/
+}
+
+.tabela tr:nth-child(odd){               /*zebrar*/         
+    background-color: #c57f7f;       /*odd seria impar*/
+}
+
+.tabela tr:hover{
+    background-color: rgb(233, 233, 146); /*passar o mouse em cima p ficar de cor diferente*/
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;     /*tamanho da fonte*/
+}
+
